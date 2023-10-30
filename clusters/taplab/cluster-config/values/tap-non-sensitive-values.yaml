@@ -41,9 +41,9 @@ tap_install:
     metadata_store:
       ns_for_export_app_cert: '*'
       app_service_type: ClusterIP
-    scanning:
-      metadataStore:
-        url: metadata-store.a3.fynesy.com
+    # scanning:
+    #   metadataStore:
+    #     url: metadata-store.a3.fynesy.com
     grype:
       namespace: default
       targetImagePullSecret: registries-credentials
