@@ -199,15 +199,15 @@ tap_install:
     # - name: spring-boot-conventions
     #   secrets:
     #   - name: reqfix-overlay-secret
-    # - name: tap-auth
-    #   secrets:
-    #   - name: reqfix-overlay-secret
-    # - name: tap-gui
-    #   secrets:
-    #   - name: reqfix-overlay-secret
-    # - name: tap-telemetry
-    #   secrets:
-    #   - name: reqfix-overlay-secret
-    # - name: tekton-pipelines
-    #   secrets:
-    #   - name: reqfix-overlay-secret
+    - name: tap-auth
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: tap-gui
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: tap-telemetry
+      secrets:
+      - name: reqfix-overlay-secret
+    - name: tekton-pipelines
+      secrets:
+      - name: reqfix-overlay-secret
