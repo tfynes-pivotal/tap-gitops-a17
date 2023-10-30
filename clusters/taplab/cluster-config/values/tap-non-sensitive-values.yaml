@@ -125,8 +125,8 @@ tap_install:
       secrets:
       - name: reqfix-overlay-secret
     - name: appsso
-       secrets:
-       - name: reqfix-overlay-secret
+      secrets:
+      - name: reqfix-overlay-secret
     - name: bitnami-services
       secrets:
       - name: reqfix-overlay-secret
