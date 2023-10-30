@@ -54,7 +54,8 @@ tap_install:
       default_tls_secret: tanzu-system-ingress/taptlscert
     api_portal:
       apiPortalServer:
-        sourceUrls: https://petstore.swagger.io/v2/swagger.json,http://customer-profile-x.default.svc.cluster.local:8080/api-docs,http://scg-operator.tap-install.svc.cluster.local/openapi
+        #jsourceUrls: https://petstore.swagger.io/v2/swagger.json,http://customer-profile-x.default.svc.cluster.local:8080/api-docs,http://scg-operator.tap-install.svc.cluster.local/openapi
+        sourceUrls: https://petstore.swagger.io/v2/swagger.json,http://customer-profile-x.default.svc.cluster.local:8080/api-docs,http://scg-openapi-service.spring-cloud-gateway.svc.cluster.local/openapi
         trustInsecureSourceUrls: true
         sourceUrlsCacheTtlSec: "30"
         sourceUrlsTimeoutSec: "30"
