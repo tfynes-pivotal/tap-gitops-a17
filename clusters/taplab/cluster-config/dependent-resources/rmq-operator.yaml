@@ -19,6 +19,6 @@ spec:
       constraints: 1.5.1
       prereleases: {}
   serviceAccountName: tap-install-sa
-  #!values:
-  #!- secretRef:
-      #!name: postgres-operator-values
+  values:
+  - secretRef:
+    name: registries-credentials
