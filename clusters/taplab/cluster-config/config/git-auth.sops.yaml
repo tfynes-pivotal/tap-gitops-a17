@@ -1,0 +1,29 @@
+apiVersion: ENC[AES256_GCM,data:kyQ=,iv:Qh4D7WF5R/xKDhOQAxQ90yzBUldXrHCXMnQUYZGKQJo=,tag:MYQHfbEfXqjFygjYrkbEPA==,type:str]
+kind: ENC[AES256_GCM,data:QqLJ2wkP,iv:PeX5xWO9v42dKOmEDLdgidrGmD/k6sl7jMaajBy9nfM=,tag:IEnrR0u+BwA2uEqAeGG1kA==,type:str]
+metadata:
+    name: ENC[AES256_GCM,data:Vt6T5wIORIE=,iv:QfVjVL3p3eFrs05QMHR8CNFo4sve85zzJFoiKcJy1E4=,tag:uZXmEPJ7TYtRAcwy9nlBbw==,type:str]
+    namespace: ENC[AES256_GCM,data:lPzmaO4I5OVZ+K0=,iv:QFhmJew01lUBTknR3qri1FR+SIcblf11GbyQKEE+I/U=,tag:8sXRjW+4geVo0upZhCj5sg==,type:str]
+type: ENC[AES256_GCM,data:KtfLDT9wyfAHEB+7/7O8sImJhJYtwWQB,iv:wn7bTMLdmv4+S7cnZlERqMXxwzK6I7212az2FnVFOdc=,tag:4kBIXqdf5q9ZCYOTcT04Tw==,type:str]
+stringData:
+    username: ENC[AES256_GCM,data:TTXqtmg7tz+pPCTLh6A=,iv:V4hqHwqCOywRHPu0Uj2RIkNlJe7vIqBmSPVTe3yCDU4=,tag:nI+u6nlm7F5iuFwy/vsTvQ==,type:str]
+    password: ENC[AES256_GCM,data:NfMqj0fHyCv11n+UjCy7Hp7bzTKftJcpe8NKHCXpvP5fQ84teL8SlA==,iv:SJ4FtM6M0a4abxm0PZwyVmBs1bZvYI7eWSFSsy8F7/g=,tag:S90C5EsXPhEEX7dlbZv84A==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1u74ps32m3mcvd6zjaw8w2p3wwfucz0r2rxrsxmq8ldlyv5lapgkqle505u
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAyTVFuYlUwZlBoN21hd3I2
+            Z0N1bE40ZmNZcUoyTVZjZ2U4N01sNS9XaGdBCnhVdVRLTWt0TWVQVTF3NlNwTkxs
+            Mm10UzNwWDVnWnFZU2JVTjlJSnMzWkEKLS0tIFNtYjVyeTNCa2haaUVZVmQvYTdq
+            WUp2K1FmRWYvSGZUTTFrRkRlZzZabWcKbwBelW5aCaDlv+rX7ZkcIX92c7qP0fow
+            PFamCqAwRudb4/Y4vPCEbMzjdUvZ56Iqu39iXEfSVsHtxytXLNWUDg==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2023-10-30T15:33:33Z"
+    mac: ENC[AES256_GCM,data:DAHXFpI16/jeqFOlRrWNEKjqDYDCc2raskm81B5Jpellx9nHM9x4JQZ9jo6qF8UfWwaBR5UjZSoMNheYyorz3Fda8RttF4ZjmF3LGAp0OHdRKChhtE4ZDE6RNUEASrxNaWY9+83EYCzuV74Aggt6JK2GNcVG20mOG7n/FULErFw=,iv:jS1JHU92DIZvg5ayIZGu1JI1FmhWOfhZS9nReoE4IkU=,tag:dTUAM6vYs2K0Op3tesgRFA==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
