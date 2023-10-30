@@ -136,9 +136,9 @@ tap_install:
     - name: cartographer
       secrets:
       - name: reqfix-overlay-secret
-    - name: cert-manager
-      secrets:
-      - name: reqfix-overlay-secret
+    # - name: cert-manager
+    #   secrets:
+    #   - name: reqfix-overlay-secret
     - name: cnrs
       secrets:
       - name: reqfix-overlay-secret
