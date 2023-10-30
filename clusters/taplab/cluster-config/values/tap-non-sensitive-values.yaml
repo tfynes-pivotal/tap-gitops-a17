@@ -102,9 +102,9 @@ tap_install:
         supply_chain_service_account:
           secrets:
           - workload-git-auth
-    #package_overlays:
-    # - name: api-portal
-    #   secrets:
+    package_overlays:
+    - name: api-portal
+      secrets:
     #   - name: api-portal-cm-tls-overlay-secret
     # - name: accelerator
     #   secrets:
