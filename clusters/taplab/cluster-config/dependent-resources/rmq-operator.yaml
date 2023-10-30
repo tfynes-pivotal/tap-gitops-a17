@@ -21,4 +21,4 @@ spec:
   serviceAccountName: tap-install-sa
   values:
   - secretRef:
-      name: registries-credentials
+      name: regsecret
