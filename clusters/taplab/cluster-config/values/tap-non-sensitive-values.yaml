@@ -163,9 +163,9 @@ tap_install:
     - name: learningcenter
       secrets:
       - name: reqfix-overlay-secret
-    - name: learningcenter-workshops
-      secrets:
-      - name: reqfix-overlay-secret
+    # - name: learningcenter-workshops
+    #   secrets:
+    #   - name: reqfix-overlay-secret
     - name: metadata-store
       secrets:
       - name: reqfix-overlay-secret
@@ -193,9 +193,9 @@ tap_install:
     - name: services-toolkit
       secrets:
       - name: reqfix-overlay-secret
-    # - name: source-controller
-    #   secrets:
-    #   - name: reqfix-overlay-secret
+    - name: source-controller
+      secrets:
+      - name: reqfix-overlay-secret
     - name: spring-boot-conventions
       secrets:
       - name: reqfix-overlay-secret
