@@ -63,6 +63,8 @@ spec:
                 rabbitmq.com/topology-allowed-namespaces: '*'
             spec:
               replicas: 1
+              imagePullSecrets:
+              - name: registries-credentials
               resources:
                 requests:
                   cpu: 200m
