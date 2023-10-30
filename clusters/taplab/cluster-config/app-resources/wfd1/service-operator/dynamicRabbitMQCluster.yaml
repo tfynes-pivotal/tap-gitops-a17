@@ -58,7 +58,7 @@ spec:
             apiVersion: rabbitmq.com/v1beta1
             kind: RabbitmqCluster
             metadata:
-              namespace: service-instances
+              namespace: default
               annotations:
                 rabbitmq.com/topology-allowed-namespaces: '*'
             spec:
