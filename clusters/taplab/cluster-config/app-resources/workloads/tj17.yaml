@@ -12,6 +12,12 @@ spec:
     env:
       - name: BP_JVM_VERSION
         value: "17"
+  env:
+  - name: foo
+    valueFrom: 
+      secretKeyRef:
+        name: my-secret
+        key: foo
   params:
   - name: annotations
     value:
