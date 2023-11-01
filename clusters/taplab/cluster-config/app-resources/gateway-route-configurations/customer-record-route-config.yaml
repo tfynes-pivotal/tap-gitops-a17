@@ -1,7 +1,7 @@
 apiVersion: tanzu.vmware.com/v1
 kind: SpringCloudGatewayRouteConfig
 metadata:
-  name: customer-record-gateway-route
+  name: customer-record-route-config
   namespace: default
 spec:
   service:
