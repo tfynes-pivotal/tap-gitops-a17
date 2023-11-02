@@ -18,8 +18,8 @@ spec:
       secretKeyRef:
         name: my-secret
         key: foo
-  - name: logging.level.root
-    value: DEBUG
+  #- name: logging.level.root
+  #  value: DEBUG
   params:
   - name: annotations
     value:
