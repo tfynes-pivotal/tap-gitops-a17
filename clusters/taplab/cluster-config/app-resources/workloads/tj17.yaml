@@ -17,7 +17,7 @@ spec:
     valueFrom: 
       secretKeyRef:
         name: my-secret
-        key: foo
+        key: fooval
   #- name: logging.level.root
   #  value: DEBUG
   params:
