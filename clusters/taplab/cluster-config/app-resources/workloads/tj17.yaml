@@ -13,7 +13,7 @@ spec:
       - name: BP_JVM_VERSION
         value: "17"
   env:
-  - name: DSC_SALT
+  - name: dsc
     valueFrom: 
       secretKeyRef:
         name: my-secret
