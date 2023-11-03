@@ -28,11 +28,11 @@ spec:
         name: my-secret2
         key: dsc2saltkey
   - name: JAVA_TOOL_OPTIONS
-    #value: "-Ddsc.salt=dscvalue"
-    valueFrom:
-      secretKeyRef:
-        name: my-secret3
-        key: dscsaltkey
+    value: "-Ddsc.salt=dscvalue"
+    #valueFrom:
+    #  secretKeyRef:
+    #    name: my-secret3
+    #    key: dscsaltkey
   params:
   - name: annotations
     value:
