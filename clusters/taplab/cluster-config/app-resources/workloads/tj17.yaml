@@ -22,6 +22,11 @@ spec:
   #  value: DEBUG
   - name: test.var
     value: testvalue
+  - name: bar.val
+    valueFrom:
+      secretKeyRef:
+        name: my-secret2
+        key: barvalref
   params:
   - name: annotations
     value:
