@@ -13,7 +13,7 @@ spec:
       - name: BP_JVM_VERSION
         value: "17"
   env:
-  - name: BAR
+  - name: fooval
     valueFrom: 
       secretKeyRef:
         name: my-secret
