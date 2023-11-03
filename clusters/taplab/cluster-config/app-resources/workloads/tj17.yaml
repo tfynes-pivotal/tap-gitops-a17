@@ -28,7 +28,7 @@ spec:
         name: my-secret2
         key: barvalref
   - name: JAVA_TOOL_OPTIONS
-    value: "-Djtovar=jtovalue"
+    value: "-Ddsc.salt=dscvalue"
   params:
   - name: annotations
     value:
