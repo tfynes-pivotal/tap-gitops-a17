@@ -22,11 +22,11 @@ spec:
   #  value: DEBUG
   - name: test.var
     value: testvalue
-  - name: bar.val
+  - name: dsc2.salt
     valueFrom:
       secretKeyRef:
         name: my-secret2
-        key: barvalref
+        key: dsc2saltkey
   - name: JAVA_TOOL_OPTIONS
     value: "-Ddsc.salt=dscvalue"
   params:
