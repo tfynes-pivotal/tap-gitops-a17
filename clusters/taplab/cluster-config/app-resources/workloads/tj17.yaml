@@ -20,6 +20,8 @@ spec:
         key: fooval
   #- name: logging.level.root
   #  value: DEBUG
+  - name: test.var
+    value: testvalue
   params:
   - name: annotations
     value:
